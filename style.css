@@ -57,3 +57,14 @@ p {
 	text-decoration: underline;
 }
 
+nav li{
+    display: inline;
+    margin-right: 5%;
+}
+nav a{
+    font-size: 22px;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
