@@ -2,27 +2,47 @@ body {
     background-color:#1C1C1C;
 }
 
+.logo{
+    width: 12%;
+}
+
+.menu{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top:  20px;
+    margin-left: 20px;
+}
+
 .texto-principal {
     margin-right: 20%; 
 }
 
-h1 {
+h1,h2 {
     color: #D3D3D3;
     text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 25px;
 }
-h2 {
-    color: #483D8B;
-}
+
 p {
     color:  #5F9EA0;
+    padding: 3px;
+
 
 }
+
 #imagem-principal {
     width: 10%;
     margin-left: 80%;
     border: 5px dotted salmon;
     float: left;
     position: absolute;
+}
+.lista{
+    font-size: 18px;
+    padding: 10px;
+    text-decoration-line: underline;
 }
 
 .itens {
@@ -33,13 +53,9 @@ p {
     margin-right: 20%; 
 }
 
-h1 {
-    color: #D3D3D3;
-    text-align: center;
-}
-h2 {
-    color: #483D8B;
-}
+
+
+
 p {
     color:  #5F9EA0;
 
@@ -57,13 +73,19 @@ p {
 	text-decoration: underline;
 }
 
+nav{
+    position: absolute;
+    top: 80px;
+    right: 150px;
+}
+
 nav li{
     display: inline;
-    margin-right: 5%;
+    margin-right: 10px;
 }
 nav a{
     font-size: 22px;
-    color: aliceblue;
+    color: rgb(221, 41, 28);
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
